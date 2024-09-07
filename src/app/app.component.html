@@ -1,14 +1,19 @@
-<div>
-  <h2>Original Values</h2>
-  <ul>
-    @for (value of originalValues; track $index) {
-    <li>{{ value }}</li>
-    }
-  </ul>
-  <h2>Original Values</h2>
-  <ul>
-    @for (value of transformedValues; track $index) {
-    <li>{{ value }}</li>
-    }
-  </ul>
+<div class="main">
+  <div class=" values originalValues">
+    <h2>Original Values</h2>
+    <ul>
+      @for (value of originalValues; track $index) {
+      <p>{{ value }}</p>
+      }
+    </ul>
+  </div>
+
+  <div class="values transformedValues">
+    <h2>Transformed Values</h2>
+    <ul>
+      @for (value of transformedValues; track $index) {
+      <p>{{ value }}</p>
+      }
+    </ul>
+  </div>
 </div>
