@@ -11,7 +11,6 @@ import { __values } from 'tslib';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'Custom-RxJS-Operators';
   originalValues: number[] = [];
   transformedValues: number[] = [];
 
