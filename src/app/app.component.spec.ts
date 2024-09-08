@@ -60,6 +60,7 @@ describe('AppComponent', () => {
         expect(err).toBe('Value is not a number');
       },
       complete: () => {
+        console.log('MultiplyBy completed');
         done();
       },
     });
